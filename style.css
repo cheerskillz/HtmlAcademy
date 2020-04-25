@@ -1,0 +1,274 @@
+body {
+  margin:0px;
+  padding: 0px;
+  width: 1440px;
+  height: 2047px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+}
+.header-title {
+  width: 347px;
+  height: 47px;
+  margin-left: 547px;
+  margin-top: 60px;
+  margin-bottom: 46px;
+}
+h1 {
+font-family: "Playfair Display";
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 47px;
+letter-spacing: 1px;
+color: #000000;
+}
+.menu {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu div {
+  height: 18px;
+}
+.menu div:first-child {
+  margin-left:135px;
+}
+.menu div:last-child {
+  margin-right:134px;
+}
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+.first-screen {
+  display: flex;
+  position: relative;
+  background-image: url('img/Hotel-11.jpg');
+  width: 1440px;
+  height: 464px;
+  margin-top: 47px;
+}
+
+.logo {
+  position: absolute;
+  left:693px;
+  top:46px;
+  width: 55px;
+  height: 55px;
+  background: #FF7931;
+  border-radius: 50%;
+}
+.fs-logo {
+  position: absolute;
+  top:16px;
+  left: 15px;
+  width: 27px;
+  height: 18px;
+  z-index: 10;
+}
+.fs-header {
+  position: absolute;
+  top:133px;
+  left:344px;
+  text-align: center;
+  vertical-align: top;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 72px;
+  letter-spacing: 2px;
+}
+.fs-p {
+  position: absolute;
+  top:352px;
+  left:472px;
+  color:white;
+  width: 456px;
+  height: 64px;
+  vertical-align: top;
+}
+.reviews {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  height: 379px;
+  text-align: left;
+
+}
+h3 {
+  text-align: center;
+  width: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.reviews-header {
+  margin-top: 44px;
+  margin-bottom: 20px;
+}
+.post {
+  flex-basis: 370px;
+  margin-right: 29px;
+}
+.post-2 > h4 {
+  color: #FF7931;
+}
+.post p {
+  color: #000000;
+}
+.post-1 {
+  margin-left:137px;
+}
+.post-3 {
+  margin-right: 135px;
+}
+.abonements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 556px;
+  background: #F7F7F7;
+  background-clip: content-box;
+}
+.abonements-header {
+  margin-top: 108px;
+}
+.abonements-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 707px;
+  height: 707px;
+  background:#FFFFFF;
+  border-radius: 50%;
+  background-clip: content-box;
+}
+.features {
+  text-align: center;
+}
+h4 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+.features p {
+  width: 370px;
+  height:63px;
+  margin-bottom: 0;
+}
+.line {
+  height: 0;
+  width: 100px;
+  opacity: 0.4;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transform: rotate(0.1deg);
+}
+.button {
+  position: relative;
+  width: 170px;
+  height: 47px;
+  background: #FF7931;
+}
+
+.button span {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.button div {
+  display: inline-block;
+  background: url("img/Arrow.svg") no-repeat 50% 50%;
+  width: 24px;
+  height: 25px;
+  vertical-align: middle;
+}
+.button a {
+  position: absolute;
+  text-decoration: none;
+  display: block;
+  width: 170px;
+  height: 36px;
+  padding-top: 11px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background: #575757;
+  height: 295px;
+  position: relative;
+}
+footer h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  margin-top: 26px;
+  margin-bottom: 32px;
+}
+.footer-menu a {
+  color: white;
+}
+footer .line {
+  height: 0;
+  width: 1170px;
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+  margin-left: 135px;
+  margin-top: 46px;
+}
+.social {
+  margin-left: 635px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+}
+.social a {
+  display: block;
+  width: 47px;
+  height: 47px;
+  margin-right: 14px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: white;
+  width: 47px;
+  height: 47px;
+  margin-right: 14px;
+}
+.icon img {
+  width:23px;
+  height:24px;
+}
